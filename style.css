@@ -4,3 +4,30 @@
     width: 70px;
     margin-right: 10px;
 }
+
+.boton-menu{
+    background-color: #ffee58;
+    transition: transform 0.3s ease-out;
+    border-radius: 20px;
+}
+
+.boton-menu:hover{
+    color: white;
+    background-color: #ff8f00;
+    transform: scale(1.1);
+}
+
+.tamanoimagenC{
+    height:950px;
+    width: 100px;
+    margin: auto;
+}
+
+.carouselitemC{
+    height: 70vh;    /* Altura proporcional a la pantalla */
+    min-height: 300px;/* Altura mínima para pantallas pequeñas */
+  }
+
+  .ima{
+    
+  }
