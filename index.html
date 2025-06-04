@@ -23,14 +23,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Menu</a>
+            <a class="nav-link active" href="#menu">Menu</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contacto</a>
+            <a class="nav-link active" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Iniciar Sesión</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -43,6 +46,7 @@
   <!-- final barra de navegacion -->
 
   <!-- inicio carusel -->
+   <section>
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -73,6 +77,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    </section>
     <!-- final carusel -->
 
     <!-- Tarjetas -->
@@ -147,8 +152,10 @@
       </div>
     </section>
 
+    
+
 <!-- Formulario -->
-    <section class="contact-form-section">
+    <section id="contacto" class="contact-form-section">
         <div>
             <h2 class="h2 fw-bold">Contáctanos</h2>
             <div>
@@ -176,6 +183,42 @@
             </div>
         </div>
     </section>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- pie de pagina -->
+     
+<footer class="bg-dark text-center py-4">
+  <div class="container">
+    <p class="mb-0 text-white">&copy; 2025 HerbalRelax. Todos los derechos reservados.
+    </p>
+    <p class="mb-0 text-white">Siguenos en Instagram</p>
+  </div>
+</footer>
+
+
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
                   integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
                   crossorigin="anonymous"></script>
