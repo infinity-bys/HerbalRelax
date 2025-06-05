@@ -1,5 +1,5 @@
 .logo{
-    border-radius: 10px;
+    border-radius: 50px;
     align-items: center;
     width: 70px;
     margin-right: 10px;
@@ -102,4 +102,23 @@
     margin: 0 auto;
     display: block;
   }
+}
+
+.redes {
+    text-decoration: none;   /* Quita la rayita azul (subrayado) */
+    color: #0288d1;          /* Cambia el color del texto a gris oscuro */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+
+  .redes:hover {
+    color: green;            /* Cambia el color al pasar el mouse por encima */
+  }
+
+  i {
+    margin-right: 5px;
+}
+
+.invi{
+  opacity: 0;
 }
