@@ -17,8 +17,8 @@
     transform: scale(1.1);
 }
 
-.tamanoimagenC{
-    height:950px;
+.tamanoimagen{
+    height:500px;
     width: 100px;
     margin: auto;
 }
@@ -121,4 +121,8 @@
 
 .invi{
   opacity: 0;
+}
+
+.mom{
+  object-fit: cover;
 }
