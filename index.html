@@ -17,7 +17,7 @@
   <!-- barra de navegacion -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/logo HerbalRelax.png" alt="" class="logo">HerbalRelax</a>
+      <a class="navbar-brand" href="#"><img src="img/logo2.png" alt="" class="logo">HerbalRelax</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
             <a class="nav-link active" href="#contacto">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Iniciar Sesión</a>
+            <a class="nav-link active"  href="login.html" class="btn btn-primary">Iniciar Sesión</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -49,7 +49,7 @@
 
   <!-- inicio carusel -->
    <section>
-  <div id="carouselExampleIndicators" class="carousel slide">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -60,13 +60,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/White Tea Party Facebook Cover.png" class="d-block w-100 tamanoimagen carouselitem" alt="imagen 1">
+        <img src="img/White Tea Party Facebook Cover.png" class="d-block w-100" style="object-fit: cover; height: 100vh;" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/tea-2570717_1280.jpg" class="d-block w-100 tamanoimagen carouselitem" alt="imagen 2">
+        <img src="img/tea-2570717_1280.jpg" class="d-block w-100" style="object-fit: cover; height: 100vh;" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/herbal-tea-1410565_1280.jpg" class="d-block w-100 tamanoimagen carouselitem" alt="...">
+        <img src="img/herbal-tea-1410565_1280.jpg" class="d-block w-100" style="object-fit: cover; height: 100vh;" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -90,8 +90,7 @@
           <!-- Tarjeta 1 -->
           <div class="col-md-4">
             <div class="card h-100 shadow-lg border-0">
-              <img src="img/HerbalRelax definitivo.png" class="card-img-top rounded-top" alt="Pizza Pepperoni"
-                style="height: 600px; object-fit: cover; width: 100%" />
+              <img src="img/HerbalRelax definitivo.png" class="card-img-top rounded-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title fw-bold">HerbalRelax - Relajación</h5>
                 <span class="badge bg-danger text-white mb-2 px-3 py-2 fs-6 me-2">
@@ -111,8 +110,7 @@
           <!-- Tarjeta 2 -->
           <div class="col-md-4">
             <div class="card h-100 shadow-lg border-0">
-              <img src="img/HerbalRelax definitivo.png" class="card-img-top rounded-top" alt="Hamburguesa"
-                style="height: 600px; object-fit: cover; width: 100%" />
+              <img src="img/Herbalimg.png" class="card-img-top rounded-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title fw-bold">HerbalRelax - Digestiva</h5>
                 <span class="badge bg-danger text-white mb-2 px-3 py-2 fs-6 me-2">
@@ -132,8 +130,7 @@
           <!-- Tarjeta 3 -->
           <div class="col-md-4">
             <div class="card h-100 shadow-lg border-0">
-              <img src="img/HerbalRelax definitivo.png" class="card-img-top rounded-top" alt="Ensalada César"
-                style="height: 600px; object-fit: cover; width: 100%" />
+              <img src="img/Herbalimg1.png" class="card-img-top rounded-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title fw-bold">HerbalRelax - Inmune</h5>
                 <span class="badge bg-danger text-white mb-2 px-3 py-2 fs-6 me-2">
@@ -153,8 +150,7 @@
           <!-- Tarjeta 4 -->
           <div class="col-md-4">
             <div class="card h-100 shadow-lg border-0">
-              <img src="img/HerbalRelax definitivo.png" class="card-img-top rounded-top" alt="Ensalada César"
-                style="height: 600px; object-fit: cover; width: 100%" />
+              <img src="img/Herbalimg2.png" class="card-img-top rounded-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title fw-bold">HerbalRelax - Energía</h5>
                 <span class="badge bg-danger text-white mb-2 px-3 py-2 fs-6 me-2">
@@ -207,29 +203,6 @@
         </div>
     </section>
 
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
     <!-- pie de pagina -->
      

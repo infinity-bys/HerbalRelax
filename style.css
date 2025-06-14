@@ -17,16 +17,8 @@
     transform: scale(1.1);
 }
 
-.tamanoimagen{
-    height:500px;
-    width: 100px;
-    margin: auto;
-}
 
-.carouselitemC{
-    height: 70vh;    /* Altura proporcional a la pantalla */
-    min-height: 300px;/* Altura mínima para pantallas pequeñas */
-  }
+
 
   /* Formulario */
 .contact-form-section {
