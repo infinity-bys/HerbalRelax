@@ -111,10 +111,10 @@
     margin-right: 5px;
 }
 
-.invi{
-  opacity: 0;
+.fondo-login {
+  background: url('img/new-year-background-3625405_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
-.mom{
-  object-fit: cover;
-}
+
+
