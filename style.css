@@ -111,7 +111,7 @@
     margin-right: 5px;
 }
 
-.fondo-login {
+.fondo-login { /*fondo del login*/
   background: url('img/new-year-background-3625405_1280.jpg') no-repeat center center fixed;
   background-size: cover;
 }
